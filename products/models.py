@@ -32,7 +32,7 @@ class Product(models.Model):
     price_eur   = models.DecimalField(max_digits=10, decimal_places=2)
     stock       = models.PositiveIntegerField(default=0)
     brand       = models.CharField(max_length=100, blank=True)
-    images      = models.JSONField(default=list)
+    images      = models.JSONField(default=list, blank=True)
     is_active   = models.BooleanField(default=True)
     created_at  = models.DateTimeField(auto_now_add=True)
 
