@@ -1,8 +1,8 @@
 export default function Cart() {
   const items = [
-    { nom: 'Sérum Éclat Intense 30ml', marque: 'La Roche-Posay', prix: 29.90, qte: 1 },
-    { nom: 'Rouge à lèvres Mat N°07',  marque: 'MAC Cosmetics',   prix: 22.00, qte: 2 },
-    { nom: 'Robe Florale Été — Taille M', marque: 'Bella Collection', prix: 49.90, qte: 1 },
+    { nom: 'Sérum Éclat Intense 30ml', marque: 'La Roche-Posay', prix: 29.90, qte: 1, image: '' },
+    { nom: 'Rouge à lèvres Mat N°07',  marque: 'MAC Cosmetics',   prix: 22.00, qte: 2, image: '' },
+    { nom: 'Robe Florale Été — Taille M', marque: 'Bella Collection', prix: 49.90, qte: 1, image: '' },
   ]
 
   const total = items.reduce((acc, i) => acc + i.prix * i.qte, 0)
@@ -14,8 +14,16 @@ export default function Cart() {
         <h2 style={{ fontSize: '18px', fontWeight: 'bold', marginBottom: '16px' }}>Mon panier ({items.length} articles)</h2>
         {items.map((item, i) => (
           <div key={i} style={{ display: 'flex', gap: '16px', alignItems: 'center', padding: '16px', border: '1px solid #eee', borderRadius: '6px', marginBottom: '12px' }}>
-            <div style={{ width: '70px', height: '70px', background: '#fdf0f6', borderRadius: '4px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-              <span style={{ fontSize: '28px' }}>🧴</span>
+            <div style={{ width: '70px', height: '70px', background: '#fdf0f6', borderRadius: '4px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, overflow: 'hidden' }}>
+              {item.image ? (
+                <img
+                  src={item.image}
+                  alt={item.nom}
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                />
+              ) : (
+                <span style={{ fontSize: '28px' }}>🧴</span>
+              )}
             </div>
             <div style={{ flex: 1 }}>
               <div style={{ fontWeight: 'bold', fontSize: '13px', marginBottom: '3px' }}>{item.nom}</div>
