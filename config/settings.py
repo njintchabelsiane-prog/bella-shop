@@ -103,6 +103,8 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 # ── Stripe ──
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
+STRIPE_PUBLISHABLE_KEY = os.getenv('STRIPE_PUBLISHABLE_KEY', '')
+FRONTEND_URL = os.getenv('FRONTEND_URL', 'http://localhost:5173')
 
 # ── Cloudinary ──
 CLOUDINARY_STORAGE = {

@@ -196,9 +196,13 @@ def confirm_order(request):
     if session.payment_status == 'paid':
         if order.status == Order.Status.PENDING:
             order.status = Order.Status.CONFIRMED
-            shipping = session.get('collected_information', {}).get('shipping_details') if session.get('collected_information') else None
+
+            session_dict = session.to_dict()
+            collected_info = session_dict.get('collected_information') or {}
+            shipping = collected_info.get('shipping_details')
             if shipping:
                 order.delivery_address = shipping
+
             order.save()
 
             payment.status = Payment.Status.SUCCESS
