@@ -1,5 +1,4 @@
 from rest_framework import generics, permissions, filters
-from django_filters.rest_framework import DjangoFilterBackend
 from .models import Category, Product
 from .serializers import CategorySerializer, ProductSerializer
 
@@ -25,9 +24,19 @@ class ProductListView(generics.ListCreateAPIView):
 
     def get_queryset(self):
         queryset = Product.objects.filter(is_active=True)
+
         category = self.request.query_params.get('category')
         if category:
             queryset = queryset.filter(category__slug=category)
+
+        prix_min = self.request.query_params.get('prix_min')
+        if prix_min:
+            queryset = queryset.filter(price_eur__gte=prix_min)
+
+        prix_max = self.request.query_params.get('prix_max')
+        if prix_max:
+            queryset = queryset.filter(price_eur__lte=prix_max)
+
         return queryset
 
 
