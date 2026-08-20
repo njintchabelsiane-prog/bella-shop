@@ -1,3 +1,4 @@
+```javascriptreact
 export default function Cart() {
   const items = [
     { nom: 'Sérum Éclat Intense 30ml', marque: 'La Roche-Posay', prix: 29.90, qte: 1 },
@@ -57,3 +58,4 @@ export default function Cart() {
     </div>
   )
 }
+```
