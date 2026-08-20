@@ -22,22 +22,13 @@ export default function Home() {
         position: 'relative',
         overflow: 'hidden',
       }}>
-        {/* Décoration */}
         <div style={{ position: 'absolute', top: -40, left: -40, width: 200, height: 200, borderRadius: '50%', background: 'rgba(248,187,217,0.3)' }}/>
         <div style={{ position: 'absolute', bottom: -60, right: -60, width: 300, height: 300, borderRadius: '50%', background: 'rgba(248,187,217,0.2)' }}/>
-
         <div style={{ position: 'relative', zIndex: 1 }}>
           <p style={{ fontSize: '12px', letterSpacing: '6px', color: '#888', textTransform: 'uppercase', marginBottom: '16px', fontFamily: 'Inter, sans-serif' }}>
             Collection 2026
           </p>
-          <h1 style={{
-            fontFamily: 'Playfair Display, serif',
-            fontSize: '52px',
-            fontWeight: '900',
-            color: '#111',
-            lineHeight: '1.2',
-            marginBottom: '20px',
-          }}>
+          <h1 style={{ fontFamily: 'Playfair Display, serif', fontSize: '52px', fontWeight: '900', color: '#111', lineHeight: '1.2', marginBottom: '20px' }}>
             Beauté & Style<br/>
             <span style={{ color: '#c2185b' }}>à votre portée</span>
           </h1>
@@ -119,25 +110,29 @@ export default function Home() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '20px', padding: '0 32px 48px' }}>
           {products.slice(0, 8).map(p => (
             <Link key={p.id} to={`/produit/${p.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
-              <div style={{
-                border: '1px solid #eee',
-                borderRadius: '12px',
-                overflow: 'hidden',
-                transition: 'transform 0.2s, box-shadow 0.2s',
-                cursor: 'pointer',
-                background: '#fff',
-              }}
+              <div style={{ border: '1px solid #eee', borderRadius: '12px', overflow: 'hidden', cursor: 'pointer', background: '#fff' }}
                 onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 8px 24px rgba(0,0,0,0.1)' }}
                 onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = 'none' }}
               >
-                <div style={{ background: 'linear-gradient(135deg, #fdf0f6, #fce4ec)', height: '180px', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative' }}>
-                  <span style={{ fontSize: '48px' }}>🧴</span>
+                {/* IMAGE */}
+                <div style={{ background: '#fff', height: '220px', display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', overflow: 'hidden', borderBottom: '1px solid #f5f5f5' }}>
+                  {p.image ? (
+                    <img
+                      src={p.image}
+                      alt={p.name}
+                      style={{ width: '100%', height: '100%', objectFit: 'contain', padding: '12px', boxSizing: 'border-box' }}
+                    />
+                  ) : (
+                    <span style={{ fontSize: '48px' }}>🧴</span>
+                  )}
                   <div style={{ position: 'absolute', top: '10px', right: '10px', background: '#111', color: '#F8BBD9', fontSize: '10px', padding: '3px 8px', borderRadius: '10px', fontWeight: '600' }}>
                     Nouveau
                   </div>
                 </div>
+
+                {/* INFOS */}
                 <div style={{ padding: '14px' }}>
-                  <div style={{ fontSize: '10px', color: '#F8BBD9', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '4px' }}>{p.brand}</div>
+                  <div style={{ fontSize: '10px', color: '#c2185b', fontWeight: '700', letterSpacing: '1px', textTransform: 'uppercase', marginBottom: '4px' }}>{p.brand}</div>
                   <div style={{ fontFamily: 'Playfair Display, serif', fontWeight: '600', fontSize: '14px', marginBottom: '8px', color: '#111' }}>{p.name}</div>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <div style={{ fontWeight: '700', fontSize: '16px', color: '#111' }}>{p.price_eur}€</div>
