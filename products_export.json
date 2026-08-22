@@ -1,0 +1,1716 @@
+[
+{
+  "model": "products.product",
+  "pk": "01f27b9f-20a8-4d79-ba84-228305c85c65",
+  "fields": {
+    "category": null,
+    "name": "Perruque Carré Lisse Noir",
+    "description": "Perruque carré (bob) lace front cheveux lisses, coloris noir profond. Coupe nette et intemporelle.",
+    "price_eur": "59.90",
+    "stock": 19,
+    "brand": "",
+    "image": "media/bella_shop/products/63261569761473263_rrneub",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T13:32:17.160Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "04ef4d5a-5e44-443b-a488-afe281abeab4",
+  "fields": {
+    "category": null,
+    "name": "Perruque Lisse Longue Balayage Châtain",
+    "description": "Perruque lace front longue cheveux lisses, base noire avec balayage châtain caramel aux pointes. Effet dégradé naturel très demandé.",
+    "price_eur": "94.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/625507835785312834_tdudvc",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T12:21:25.518Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "09c7304c-d75a-43b9-a929-d0cbfbb1906c",
+  "fields": {
+    "category": "c6831a7a-1ed6-4213-a237-f929e35f8b45",
+    "name": "Savon Éclaircissant Kojie San",
+    "description": "Savon éclaircissant classique à l'acide kojique. Pour un teint plus lumineux et unifié.",
+    "price_eur": "6.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/kojiesan_kojicacid_skincare_bodycare_brighteningsoap_glowingskin_zyufgj",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T19:16:37.930Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "0aa4b03b-d748-4553-ac12-492d171746f2",
+  "fields": {
+    "category": "dddb6b9e-11bd-4a7b-9bae-1429a82e3042",
+    "name": "Solution Tonifiante Acide Glycolique 7% The Ordinary",
+    "description": "Exfoliant tonifiant à l'acide glycolique 7%, pH ~3,6. Affine le grain de peau et unifie le teint.",
+    "price_eur": "9.90",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/The_Ordinary_Acide_Glycolique_7_-_Soin_Tenseur_et_Exfoliant_jlmr7k",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T19:31:41.297Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "0b1b0a90-2016-447d-9a03-941ad5cf3430",
+  "fields": {
+    "category": "8fe0e2ec-30fa-4583-a62d-72eeba47bf30",
+    "name": "Olay Dark Spot Correcting Body Lotion",
+    "description": "Lait corporel correcteur de taches pigmentaires à l'AHA, vitamine C et niacinamide. Exfolie en douceur et estompe les taches brunes tenaces en 4 semaines, cliniquement prouvé sur peaux mates.",
+    "price_eur": "16.25",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/_Say_goodbye_to_stubborn_dark_spots__The_Olay_d5xhw2",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T20:31:53.802Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "115f07f4-822f-4328-84bd-dbc11fde4a50",
+  "fields": {
+    "category": null,
+    "name": "Perruque Locs Longues Dorées",
+    "description": "Perruque lace front en locs (dreadlocks) extra-longues, ornée de bijoux capillaires dorés. Style bohème-chic affirmé.",
+    "price_eur": "99.90",
+    "stock": 16,
+    "brand": "",
+    "image": "media/bella_shop/products/Festival_Hair_f1pqyw",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T13:12:07.789Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "1299be48-9033-4e34-b7c8-8e6772292ed7",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Rasoirs sourcils Tincke (lot de 3, x3 packs)",
+    "description": "Rasoirs sourcils précision avec capuchon de sécurité inox, pour épiler et façonner les sourcils en douceur à domicile. Lot de 3 coloris.",
+    "price_eur": "3.15",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/Derma_blade__5000_3pcs___Multipurpose_tool_ybbict",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:32:30.031Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "13a54d4d-8ffc-4505-aeb7-6839f93db2fc",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Set de brosses à cheveux violet (4 pièces + support)",
+    "description": "Kit de brosses cheveux assorties (brosse pneumatique, brosse ronde, brosse démêlante, peigne) sur socle de rangement rotatif, coloris violet.",
+    "price_eur": "14.67",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/Beautiful_sup3ke",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:29:57.144Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "13bf04c7-402b-4cbc-b6c2-969cd2284511",
+  "fields": {
+    "category": null,
+    "name": "Perruque Ondulée Brune avec Frange",
+    "description": "Perruque mi-longue ondulée brune avec frange rideau, finition brillante et naturelle. Coupe polyvalente pour un usage quotidien.",
+    "price_eur": "69.90",
+    "stock": 20,
+    "brand": "",
+    "image": "",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T12:58:56.011Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "14c29ae3-e665-4dea-9826-3a41fa0c2a2f",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Lot de limes à ongles roses (x10)",
+    "description": "Limes à ongles jetables double grain, format standard, idéales pour façonner et lisser les ongles avant pose.",
+    "price_eur": "3.42",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/Batom_mágico_vmgkqi",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:23:34.462Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "15f89415-6d8c-4b49-b2bc-a78fafdccab4",
+  "fields": {
+    "category": "8fe0e2ec-30fa-4583-a62d-72eeba47bf30",
+    "name": "Mixa Cica Réparation 10-en-1 — Pommade ultra-réparatrice",
+    "description": "Soin réparateur multi-usage pour peaux extra sèches et rugueuses (mains, pieds, coudes, genoux). Formule brevetée enrichie à 40% de glycérine, urée et allantoïne, texture légère non grasse.",
+    "price_eur": "8.25",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/_Mixa_Cica_Réparation__Soin_réparateur_pour_peau_sensible__abîmée__e3s1wp",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T20:26:49.507Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "167980f0-3ce9-4776-ac69-63cb250997d3",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Mascara Maybelline The Colossal Volum' Express",
+    "description": "Mascara volumateur intense, brosse XXL pour un volume spectaculaire dès la première couche, formule lavable.",
+    "price_eur": "11.54",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/1090293391048581632_ul24ct",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:04:52.627Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "2011615b-e331-4dc4-9400-1acf158675cd",
+  "fields": {
+    "category": null,
+    "name": "Perruque Longue Lisse avec Frange",
+    "description": "Perruque longue 30 pouces cheveux lisses avec frange, densité 200%, mélange naturel. Look effortless et intemporel.",
+    "price_eur": "99.90",
+    "stock": 15,
+    "brand": "",
+    "image": "media/bella_shop/products/30_Inch_Long_Straight_Wig_With_Bangs_Human_Hair_Blended_200_Density_bvep1i",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T12:40:51.502Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "27128163-99e5-42e6-a47e-de6a7eb3033b",
+  "fields": {
+    "category": "dddb6b9e-11bd-4a7b-9bae-1429a82e3042",
+    "name": "Nettoyant Hydratant CeraVe",
+    "description": "Crème lavante hydratante visage et corps, aux 3 céramides essentiels et acide hyaluronique. Sans parfum, 236 ml.",
+    "price_eur": "14.90",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/Gentle_Hydration_with_CeraVe_Hydrating_Cleanser__vtcby2",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T19:06:46.782Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "34d4a017-213a-4680-8b43-1c9be30767e9",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Vizzela Real Fix — Fixateur de maquillage (100/150 ml)",
+    "description": "Brume fixatrice longue tenue à base de résine, enrichie en extraits de romarin, aloe vera et thé vert, nourrit et hydrate la peau tout en fixant le maquillage.",
+    "price_eur": "12.56",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/Fixador_de_Maquiagem_Vizzela_Real_Fix___Mini_100ml__uqfns5",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:42:04.969Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "34e7fb4a-35f6-4786-9122-da3d0a4a6d62",
+  "fields": {
+    "category": null,
+    "name": "Perruque Lisse Kinky Straight",
+    "description": "Perruque à fermeture lace HD 5x5, texture kinky straight (lisse légèrement texturé). Racines naturelles indétectables.",
+    "price_eur": "74.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/Anabel_Kinky_Straight_5x5_HD_Lace_Closure_Wig_r73y8q",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T12:36:42.548Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "35b1835a-91af-464a-9d21-ea19205366a5",
+  "fields": {
+    "category": null,
+    "name": "Perruque Mi-Longue Ondulée Rose",
+    "description": "Perruque lace front mi-longue, ondulations souples, coloris rose pastel vibrant. Look fun et coloré, parfaite pour les occasions festives.",
+    "price_eur": "59.90",
+    "stock": 20,
+    "brand": "",
+    "image": "",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T12:24:03.302Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "36b7db57-a80e-4eaf-a16b-8ca5505c76c8",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Lot 4 Fonds de Teint Matifiants Fit Me",
+    "description": "Lot de 4 fonds de teint matifiants, formule anti-pores, plusieurs teintes pour peaux normales à grasses.",
+    "price_eur": "24.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/1128011037920728761_u0qhkr",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-27T22:58:51.694Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "38402fde-dc6c-4050-b98a-f8bc7cdb5c4e",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Lot de limes à ongles roses (x10)",
+    "description": "Limes à ongles jetables double grain, format standard, idéales pour façonner et lisser les ongles avant pose.",
+    "price_eur": "3.42",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/Batom_mágico_xlyyde",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:23:33.232Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "389abdf5-5535-487a-978b-095e799501f5",
+  "fields": {
+    "category": null,
+    "name": "Perruque Ondulée Brune avec Frange",
+    "description": "Perruque mi-longue ondulée brune avec frange rideau, finition brillante et naturelle. Coupe polyvalente pour un usage quotidien.",
+    "price_eur": "69.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/Bella_-_Not_Styled_qtptc1",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T13:02:55.316Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "3a4521d6-7314-48c4-a717-c7aa9b2e35a5",
+  "fields": {
+    "category": null,
+    "name": "Perruque Courte Pixie Bordeaux",
+    "description": "Perruque courte coupe pixie avec frange, teinte bordeaux profond. Style audacieux et moderne, idéale pour un changement de look marquant.",
+    "price_eur": "42.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/Valentine_Sales__Hair_Type__Wine__Cooperate_dspebm",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T12:22:59.644Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "4036b77d-40ff-4f57-9f9f-4edd3f19a920",
+  "fields": {
+    "category": "f24d2c2b-4bd0-4b0e-8e24-4065637699b3",
+    "name": "Perruque Bouclée Courte Plaquée",
+    "description": "Perruque courte à boucles serrées, coiffée plaquée sur le côté façon glamour vintage. Finition glossy raffinée.",
+    "price_eur": "47.90",
+    "stock": 32,
+    "brand": "",
+    "image": "media/bella_shop/products/Sallah_Sales__Hair_Type___Super_Double_Drawn_fwjyim",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T14:18:34.432Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "452e30f0-5387-4570-a7f1-18fb99df064e",
+  "fields": {
+    "category": null,
+    "name": "Perruque Bandeau Bouclée Kinky Curly",
+    "description": "Perruque bandeau (headband wig) à boucles serrées type kinky curly, densité 150%. Pose rapide sans colle, aspect naturel et volumineux.",
+    "price_eur": "54.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/927460117004403895_fegmwd",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T12:25:26.639Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "4b9e5985-2cfd-4bf3-a641-b69eaa4754a3",
+  "fields": {
+    "category": "f24d2c2b-4bd0-4b0e-8e24-4065637699b3",
+    "name": "Perruque Courte Pixie avec Frange",
+    "description": "Perruque courte coupe pixie avec frange structurée, coloris noir naturel. Style moderne et facile d'entretien.",
+    "price_eur": "42.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/Hair_Type___Classy_Boss_Pixie_Cut_Fringe_Wig_vkbms5",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T14:21:54.643Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "546a9add-f2f8-452e-b6c5-2ed98820c369",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Lot de bonnets satin nuit (5 coloris)",
+    "description": "Bonnets en satin élastiqués pour protéger les cheveux la nuit, réduire les frisottis et préserver les coiffures. Plusieurs coloris disponibles.",
+    "price_eur": "6.25",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/899382990964772819_vx9x1a",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T20:59:59.924Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "5793d066-947d-4816-a119-71c256705242",
+  "fields": {
+    "category": "dddb6b9e-11bd-4a7b-9bae-1429a82e3042",
+    "name": "Pain Dermatologique Purifiant Sébionex",
+    "description": "Pain Dermatologique Purifiant Sébionex",
+    "price_eur": "9.90",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/992128992914015117_rgyd7e",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T19:23:20.539Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "5af99d17-8ed3-4df3-967a-2e30a02994de",
+  "fields": {
+    "category": "8fe0e2ec-30fa-4583-a62d-72eeba47bf30",
+    "name": "Vaseline Intensive Care Cocoa Radiant Body Oil",
+    "description": "Huile corporelle gel vitalisante au beurre de cacao pur à 100%, pour une peau nourrie, souple et lumineuse au quotidien. Format 200 ml.",
+    "price_eur": "9.25",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/11892386514017666_ghkfsz",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T20:34:17.394Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "5df151ab-afff-47e8-bdca-ec46a1ff30d6",
+  "fields": {
+    "category": "c6831a7a-1ed6-4213-a237-f929e35f8b45",
+    "name": "Gel douche exfoliant So Carrot Paris (F&W)",
+    "description": ": Gel douche gommant illuminateur au parfum carotte énergisant, avec microbilles naturelles pour une peau douce et éclatante. Format 940 ml.",
+    "price_eur": "9.90",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/Turn_your_shower_into_a_spa_moment___Dive_into_b9brft",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T20:04:50.928Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "5f8a704d-2692-45d0-b9bf-f19933448482",
+  "fields": {
+    "category": "c6831a7a-1ed6-4213-a237-f929e35f8b45",
+    "name": "Gel Douche Soft Rose Lux",
+    "description": "Gel douche parfum rose délicat, à l'acide hyaluronique 2x hydratant.",
+    "price_eur": "3.90",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/Lux_Rose_Shower_gel__wjuloo",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T19:24:38.704Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "5f9c07b1-2d6b-46e2-b4ff-bd432f002e6a",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Fond de teint Sephora Perfection 10H",
+    "description": "Fond de teint longue tenue 10h, technologie seconde peau, fini non gras et oil-free pour un teint unifié naturel toute la journée.",
+    "price_eur": "18.23",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/Foundation_lp3t1w",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:43:04.936Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "5fb43337-926b-4a9e-93de-3f393a9f18d4",
+  "fields": {
+    "category": "f24d2c2b-4bd0-4b0e-8e24-4065637699b3",
+    "name": "Perruque Afro Courte Volume XL",
+    "description": "Perruque afro courte à boucles serrées, volume extra généreux avec frange intégrée. Look audacieux et naturel.",
+    "price_eur": "57.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/114208540544156119_p4ohkg",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T14:14:02.135Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "6001e61a-7ecf-4869-a9ef-d293afd7b05a",
+  "fields": {
+    "category": "c446dc6f-f18d-482f-86b6-444ae12a2d9c",
+    "name": "Evoluderm Routine Hydratante Monoï à la Folie (8 produits)",
+    "description": "Coffret routine complète corps et cheveux au monoï, ingrédients d'origine naturelle et végane : shampooing, après-shampooing, masque cheveux, huile sèche, lait corps, gommage, soin longueurs et gant exfoliant offert.",
+    "price_eur": "34.49",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/EVOLUDERM_-_Routine_Hydratante_8_produits_roitua",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:39:24.298Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "64cc3a7a-1ca4-474e-babb-661762e86117",
+  "fields": {
+    "category": "c446dc6f-f18d-482f-86b6-444ae12a2d9c",
+    "name": "Evoluderm Routine Hydratante Monoï à la Folie (8 produits)",
+    "description": "Coffret routine complète corps et cheveux au monoï, ingrédients d'origine naturelle et végane : shampooing, après-shampooing, masque cheveux, huile sèche, lait corps, gommage, soin longueurs et gant exfoliant offert.",
+    "price_eur": "34.49",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/EVOLUDERM_-_Routine_Hydratante_8_produits_wn6sel",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:35:38.865Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "64de56b9-3a9d-4c6b-84db-20771ecd79a9",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Ponceuse électrique à ongles portable (nail drill)",
+    "description": "Ponceuse professionnelle rechargeable avec embouts interchangeables, pinceau et lime intégrée, écran digital, idéale manucure/pédicure à domicile.",
+    "price_eur": "29.79",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/436708495134444441_aadxav",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T20:52:02.194Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "680c173c-c74d-4a13-b72f-1fd496dccf7e",
+  "fields": {
+    "category": "dddb6b9e-11bd-4a7b-9bae-1429a82e3042",
+    "name": "Trio Cosrx (nettoyant gel, essence bave d'escargot 96%, crème escargot 92% all-in-one)",
+    "description": "Routine complète apaisante et réparatrice à la mucine d'escargot : nettoyant gel low pH, essence concentrée et crème tout-en-un pour peaux sensibles ou abîmées.",
+    "price_eur": "34.51",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/854065516855851481_ozhxrf",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T20:58:36.420Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "68baee8a-ca77-4d9b-9626-761fab1a46ce",
+  "fields": {
+    "category": null,
+    "name": "Perruque Courte Bouclée Afro",
+    "description": "Perruque lace front courte à boucles serrées afro, coupe pixie naturelle. Look sport-chic et texture volumineuse, facile à coiffer au quotidien.",
+    "price_eur": "39.90",
+    "stock": 20,
+    "brand": "Bella Shop",
+    "image": "media/bella_shop/products/ILIKEHAIR_Official_Store___Affordable_Human_Hair_Wigs_tsf68m",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T12:03:53.657Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "6cdc8037-5f51-4e55-9643-f2dfdb612fa9",
+  "fields": {
+    "category": null,
+    "name": "Perruque Bouclée Auburn Mi-Longue",
+    "description": "Perruque lace front mi-longue aux boucles souples, teinte auburn chaleureuse. Frange dégradée sur le côté pour un rendu romantique et naturel.",
+    "price_eur": "64.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/1092756297108988026_jovzgr",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T12:13:01.424Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "6ea3996d-b9db-40bc-bf1b-66fed3f4e126",
+  "fields": {
+    "category": "c446dc6f-f18d-482f-86b6-444ae12a2d9c",
+    "name": "Trio Croissance Capillaire Pouss Nature",
+    "description": "Trio pousse capillaire : sérum de croissance, lait hydratant et crème boost pousse. Spécial cheveux crépus, bouclés et frisés, ingrédients naturels.",
+    "price_eur": "39.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/Routine_hydratation_longue_durée_gy3zxa",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T14:08:31.208Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "71340562-b7b7-4e79-92a5-34ddd8d2cc22",
+  "fields": {
+    "category": null,
+    "name": "Perruque Lisse Extra-Longue Noire",
+    "description": "Perruque lace front cheveux lisses, longueur extra-longue jusqu'à la taille. Effet brillant et soyeux, idéal pour un look glamour et sophistiqué.",
+    "price_eur": "89.90",
+    "stock": 20,
+    "brand": "Bella Shop",
+    "image": "media/bella_shop/products/Highlight_Wig_oje1y1",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T12:01:17.043Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "760a027a-452f-4e3f-af03-540fb7681b6f",
+  "fields": {
+    "category": "f24d2c2b-4bd0-4b0e-8e24-4065637699b3",
+    "name": "Duo Après-Shampooing & Gelée Bouclée Pink Paradise",
+    "description": "Duo capillaire : après-shampooing démêlant Pink Paradise et gelée coiffante Boost Curl. Formule naturelle au jojoba et pamplemousse rose pour cheveux bouclés.",
+    "price_eur": "29.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/Les_Secrets_de_Loly___produits_pour_cheveux_texturés_dymitw",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T14:03:51.408Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "78d7797b-388f-4c29-a72a-b4a6a8d2a29f",
+  "fields": {
+    "category": null,
+    "name": "Perruque Ondulée Brune Mèches Auburn",
+    "description": "Perruque lace front mi-longue ondulée, base brune avec mèches auburn. Style romantique et lumineux",
+    "price_eur": "79.90",
+    "stock": 25,
+    "brand": "",
+    "image": "media/bella_shop/products/Voluminous_Kinky_Curly_Lace_Front_Wig_rsa0s6",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T14:04:34.775Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "7a415580-708d-412a-97d4-35ae2de620ac",
+  "fields": {
+    "category": "f24d2c2b-4bd0-4b0e-8e24-4065637699b3",
+    "name": "Perruque Lisse Mi-Longue Dégradé Racines",
+    "description": "Perruque lace front mi-longue cheveux lisses, racines naturelles foncées et longueurs châtain. Finition brillante et soyeuse.",
+    "price_eur": "69.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/edzjxbcg9l4vz7x0hk6p",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T14:17:30.954Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "7b7eea9c-e99a-4ba2-919f-5fd31b5203e3",
+  "fields": {
+    "category": null,
+    "name": "Perruque Carré Châtain Mèches Miel",
+    "description": "Perruque carré (bob) lace front, base châtain avec mèches miel. Coupe droite moderne et lumineuse.",
+    "price_eur": "74.90",
+    "stock": 0,
+    "brand": "",
+    "image": "media/bella_shop/products/13x6_HD_Loose_Wave_Wig_thei65",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T13:14:21.574Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "7bb29b6a-bb51-402c-a3d0-476da0507792",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Pinceau nettoyant ongles Kabuki (coloris dégradé)",
+    "description": "Pinceau doux pour dépoussiérer les ongles avant/après manucure, poils synthétiques dégradés, manche ergonomique orné de strass. Disponible en plusieurs coloris.",
+    "price_eur": "3.15",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/17029304837806796_ctf6ew",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T20:35:40.843Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "7df8e6bf-a966-4d94-b7cc-2e9d691c1c5b",
+  "fields": {
+    "category": "8fe0e2ec-30fa-4583-a62d-72eeba47bf30",
+    "name": "Duo Vaseline Healthy Bright — Lotion UV Extra Brightening + Huile Corporelle Vitamine B3",
+    "description": "Duo éclat unifiant : lotion corporelle GlutaGlow SPF illuminatrice (300 ml) et huile corporelle vitaminée B3 100% naturelle pour un teint sublimé et hydraté (200 ml).",
+    "price_eur": "14.45",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/1477812372676814_fjtiqw",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T20:33:14.222Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "7f57a85f-b584-46c4-8df0-b6bb02a137ac",
+  "fields": {
+    "category": null,
+    "name": "Perruque Courte Bouclée avec Frange",
+    "description": "Perruque courte à boucles serrées avec frange, texture naturelle bouclée. Look frais et coquin",
+    "price_eur": "44.90",
+    "stock": 24,
+    "brand": "",
+    "image": "media/bella_shop/products/416160821838758909_wnl60b",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T13:46:50.991Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "826b3648-68a3-4975-a5a8-1056731115dc",
+  "fields": {
+    "category": null,
+    "name": "Perruque Lisse Extra-Longue Lissée",
+    "description": "Perruque lace front extra-longue cheveux lisses, finition brillante miroir. Coiffage impeccable façon salon professionnel.",
+    "price_eur": "99.90",
+    "stock": 25,
+    "brand": "",
+    "image": "media/bella_shop/products/How_to_Refuse_Such_a_Quality_Wig_from_Us__aop89f",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T14:05:34.335Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "8292ccd0-07b0-4ee5-8a79-8e1f48271565",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Tigi Bed Head \"A Hair Stick for Cool People",
+    "description": "Stick de cire coiffante en bâton, texture malléable pour un effet coiffé-décoiffé et une tenue flexible. Format 75 g.",
+    "price_eur": "12.15",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/53128470598233657_sj1hzt",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T20:50:46.687Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "8450991d-5ea4-487e-b8bf-79d675510782",
+  "fields": {
+    "category": "c446dc6f-f18d-482f-86b6-444ae12a2d9c",
+    "name": "Gel Coiffant Huile d'Olive Mixa",
+    "description": "Gel wax coiffant à l'huile d'olive, finition perfection style, format 300g.",
+    "price_eur": "5.90",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/gel_pour_cheveux_de1uaj",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T19:05:46.775Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "884df9c5-581b-4c41-9d21-2e31003561f4",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Palette de correcteurs/contour 12 teintes",
+    "description": "Palette professionnelle de correcteurs crème 12 teintes pour contouring, camouflage et unification du teint, adaptée à toutes carnations.",
+    "price_eur": "19.92",
+    "stock": 12,
+    "brand": "",
+    "image": "media/bella_shop/products/1046312925942519083_wsm3ye",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:01:51.787Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "8a427a38-4127-4326-a27b-6bc984775520",
+  "fields": {
+    "category": "f24d2c2b-4bd0-4b0e-8e24-4065637699b3",
+    "name": "Perruque Ondulée avec Frange Naturelle",
+    "description": "Perruque lace front mi-longue ondulée avec frange, mouvement souple et volumineux. Look romantique au quotidien",
+    "price_eur": "72.90",
+    "stock": 30,
+    "brand": "",
+    "image": "media/bella_shop/products/20__Fringe_Wig__Luxury_Closure_Natural_Color_bu0fii",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T14:20:07.599Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "8a904c05-5588-4a12-a29a-d5ec30f3c292",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Palette Maquillage Complète 190 Coloris",
+    "description": "Palette tout-en-un : fards à paupières, blush, highlighter, rouges à lèvres et pinceaux inclus. L'essentiel du maquillage en un seul kit.",
+    "price_eur": "34.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/724164815073422514_t9fpqt",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-27T22:30:30.103Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "8b1783ae-048a-4930-9aee-4d83b2d800c7",
+  "fields": {
+    "category": "c446dc6f-f18d-482f-86b6-444ae12a2d9c",
+    "name": "Crème Bouclante Beurre de Karité Cantu",
+    "description": "Crème bouclante au beurre de karité et complexe vitamine B. Définit, hydrate et adoucit les boucles et cheveux crépus. 340 g.",
+    "price_eur": "11.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/CANTU_Shea_Butter_Curling_Cream_qoipki",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T14:07:43.351Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "8f89820e-5dd5-461d-b61c-c202bda98330",
+  "fields": {
+    "category": "c6831a7a-1ed6-4213-a237-f929e35f8b45",
+    "name": "Gel Douche Fondant Karité Evoluderm",
+    "description": "Gel douche fondant délice de karité, 96% d'origine naturelle, sans savon. Format 500 ml.",
+    "price_eur": "4.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/1023794927767335470_xza7lr",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T19:20:10.629Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "90fdd4a2-c5d5-4988-8171-e02a85fdd29a",
+  "fields": {
+    "category": null,
+    "name": "Perruque Longue Ondulée Chocolat",
+    "description": "Perruque lace front HD, cheveux 100% naturels, ondulations body wave et teinte chocolat brun. Coupe dégradée pour un volume glamour.",
+    "price_eur": "109.90",
+    "stock": 15,
+    "brand": "",
+    "image": "media/bella_shop/products/rruque_Bandeau_Bouclée_Kinky_Curly_nahitq",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T12:33:14.757Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "928f3321-0e92-4749-9343-f18778cd4c0a",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Poudre Compacte Matifiante",
+    "description": "Poudre compacte teintée avec miroir intégré. Fixe le maquillage et unifie le teint toute la journée.",
+    "price_eur": "12.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/622552348496191367_rr9f2w",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-27T22:28:42.672Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "92d09ebe-e85a-4ecd-a4d5-3e4f939116ae",
+  "fields": {
+    "category": "dddb6b9e-11bd-4a7b-9bae-1429a82e3042",
+    "name": "SVR Sun Secure — Gamme solaire SPF50+ (5 produits)",
+    "description": "Gamme de protection solaire très haute protection biodégradable : eau solaire, lait hydratant, mousse floutrice, spray crépitant et stick invisible, adaptée peaux hypersensibles.",
+    "price_eur": "12.39",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/Najcieplejsze_dni_lata_dopiero_przed_nami__Tak_zzgqyn",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:45:26.150Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "940fc94d-ebb1-4e35-a522-a66415916b69",
+  "fields": {
+    "category": "8fe0e2ec-30fa-4583-a62d-72eeba47bf30",
+    "name": "Nivea Radiant & Beauty Even Glow — Lait corps Vitamine C",
+    "description": "Lait corporel illuminateur à 95% de vitamine C pure, extrait de perle et curcuma, unifie et éclaircit visiblement le teint en 2 semaines. Format 400 ml.",
+    "price_eur": "8.09",
+    "stock": 0,
+    "brand": "",
+    "image": "media/bella_shop/products/Nivea_Radiance_Lotion_pq2abp",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:46:44.795Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "99bf0718-9749-4a4e-a89b-7c812496566a",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Lot de lip gloss \"Honey Gloss\" parfumés (8 saveurs)",
+    "description": "Mini gloss lèvres ultra brillants et hydratants à la vitamine E, parfums fruités variés (fraise, cerise, raisin, pastèque, pomme...). Format voyage.",
+    "price_eur": "9.56",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/best_flavour_lipgloss_exw6mm",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:31:15.891Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "99ee9f37-771c-4c0c-aed4-9c42969f57ac",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Crayon Khôl Noir Waterproof",
+    "description": "Crayon eyeliner et lèvres noir waterproof, taille-crayon inclus. Trait précis et tenue longue durée.",
+    "price_eur": "6.90",
+    "stock": 30,
+    "brand": "",
+    "image": "media/bella_shop/products/954974295981202030_fgunqe",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-27T22:54:14.475Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "9bc7ec4e-f1e3-49bf-9448-0cbc684f4556",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Tigi Bed Head \"A Hair Stick for Cool People",
+    "description": "Stick de cire coiffante en bâton, texture malléable pour un effet coiffé-décoiffé et une tenue flexible. Format 75 g.",
+    "price_eur": "12.25",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/78672324736484029_gdtirx",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:59:09.297Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "9c276e8e-cf1d-4260-b91c-10c0cb2515cd",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Lot 12 Crayons Yeux & Lèvres Marron",
+    "description": "Lot de 12 crayons eyeliner et contour des lèvres, teinte marron waterproof, vitamine E. Format taillé, prêt à l'emploi.",
+    "price_eur": "14.90",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/990791986744077516_dys1sb",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-27T22:55:19.099Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "9e380234-448a-4fe9-8125-dacbfc4d5775",
+  "fields": {
+    "category": null,
+    "name": "Perruque Tresses Bouclées Extrémités Curly",
+    "description": "Perruque lace front en tresses fines avec extrémités bouclées naturelles. Style protecteur élégant, prête à porter.",
+    "price_eur": "64.90",
+    "stock": 0,
+    "brand": "",
+    "image": "media/bella_shop/products/Braided_wigGhana_weaving_braidsbraids_wig_ecfych",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T13:07:35.846Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "9fa3a2e4-07ac-478b-a28a-8cae1356e183",
+  "fields": {
+    "category": "dddb6b9e-11bd-4a7b-9bae-1429a82e3042",
+    "name": "Lot de masques tissu hydratants BIOAQUA/Sadoer (avocat, myrtille, agrumes, aloe vera, acide hyaluronique)",
+    "description": "Assortiment de masques en tissu hydratants et repulpants à choisir selon les besoins de la peau, texture essence, format individuel 25 g.",
+    "price_eur": "8.18",
+    "stock": 5,
+    "brand": "",
+    "image": "media/bella_shop/products/581034789469958087_bzfrbr",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T20:54:03.473Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "a239d2a8-915f-49de-81a4-c6c6b7df6224",
+  "fields": {
+    "category": null,
+    "name": "Perruque Longue Bouclée Brune Naturelle",
+    "description": "Perruque lace front longue à boucles définies, teinte brune naturelle. Volume abondant et mouvement naturel.",
+    "price_eur": "94.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/Whats_not_to_love_about_this_wig____We_have_300g_u6bggo",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T13:48:39.416Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "a3760e99-a795-4ad2-9da3-42253f8f948e",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Brosse à cheveux soies de sanglier (manche bois)",
+    "description": "Brosse démêlante en bois avec soies de sanglier naturelles, stimule le cuir chevelu, lisse et fait briller les cheveux, réduit les frisottis.",
+    "price_eur": "11.29",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/Pettine_per_capelli_spazzola__bgrovs",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:51:23.675Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "a66f3721-db7d-4dd8-9bdf-834e16ab47bb",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Kit cils à effet volume \"Golden Unwinding\" (cluster lashes)",
+    "description": "Kit complet extensions de cils à pose individuelle (cluster), avec colle, remover, pince applicatrice et brosse. Plusieurs longueurs incluses (8-16mm) pour un regard volumateur.",
+    "price_eur": "14.25",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/cdswsnfcckxey3n2etsp",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T20:11:08.329Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "aa6a288c-6535-403b-9d27-525faf9f85d0",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Salon Pro Exclusives Hair Bonding Glue \"Super Bond\"",
+    "description": "Colle professionnelle pour la pose de perruques, tissages et postiches. Formule \"super bond\" pour une tenue longue durée et un maintien renforcé. Format voyage 30 ml, fabriquée aux USA.",
+    "price_eur": "6.92",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/Salon_Pro_Black_Hair_Bonding_Glue_1oz_ruon1y",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T22:01:20.069Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "aed78f9e-8a2b-45d5-b429-993e3da99868",
+  "fields": {
+    "category": "8fe0e2ec-30fa-4583-a62d-72eeba47bf30",
+    "name": "Huile pour Bébé Johnson's",
+    "description": "Huile hydratante bébé, verrouille l'hydratation, sans parabènes ni phtalates. 200 ml.",
+    "price_eur": "5.90",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/160159330491559654_edbees",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T19:25:45.315Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "af438bff-3093-4b5b-a66a-344c937fc593",
+  "fields": {
+    "category": null,
+    "name": "Perruque Bouclée Volumineuse Demi-Attachée",
+    "description": "Perruque lace front à grandes boucles souples, style glamour avec mèches relevées. Volume XXL pour un effet sophistiqué.",
+    "price_eur": "84.90",
+    "stock": 15,
+    "brand": "",
+    "image": "media/bella_shop/products/35_Wig_Hairstyles_for_Natural_Glam__Versatile_Protective__m3x16m",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T12:39:55.503Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "af60821a-b0b8-4f5a-a16d-bdbe28581c60",
+  "fields": {
+    "category": "8fe0e2ec-30fa-4583-a62d-72eeba47bf30",
+    "name": "Lotion Corps Éclaircissante Vitamine C Olay",
+    "description": "Lotion corps illuminatrice à la vitamine C et niacinamide B3. Peau visiblement plus lumineuse en 21 jours, format 502 ml.",
+    "price_eur": "13.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/Brightening_Body_Lotions_You_Can_Get_From_Us_eoahlx",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T14:05:49.770Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "b22dadd1-083d-4a48-b96b-59e27d6b6691",
+  "fields": {
+    "category": "f24d2c2b-4bd0-4b0e-8e24-4065637699b3",
+    "name": "Perruque Longue Ondulée Noire XXL",
+    "description": "Perruque lace front longue, ondulations body wave amples, coloris noir intense. Volume XXL pour un effet spectaculaire",
+    "price_eur": "99.90",
+    "stock": 30,
+    "brand": "",
+    "image": "media/bella_shop/products/11822017766018934_auavi0",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T14:25:21.191Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "b47266fb-196a-4ace-8d96-56ff4a034204",
+  "fields": {
+    "category": "f24d2c2b-4bd0-4b0e-8e24-4065637699b3",
+    "name": "Perruque Bouclée Mi-Longue Volumineuse",
+    "description": "Perruque lace front bouclée mi-longue, texture définie et volume généreux. Aspect 100% naturel.",
+    "price_eur": "77.90",
+    "stock": 30,
+    "brand": "",
+    "image": "media/bella_shop/products/11822017766018934_ti3xqz",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T14:23:09.222Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "b60f7377-24b0-4ef8-aa18-e4e782d85c70",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Set 4 Éponges de Maquillage Multicolores",
+    "description": "Set de 4 éponges beauty blender aux couleurs pastel. Application uniforme du fond de teint et du concealer.",
+    "price_eur": "8.90",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/télécharger_zorpri",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-27T23:00:03.410Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "b71300cd-d889-4e65-94c5-6f24b76c748f",
+  "fields": {
+    "category": "f24d2c2b-4bd0-4b0e-8e24-4065637699b3",
+    "name": "Perruque Carré Lisse Noir Brillant",
+    "description": "Perruque carré (bob) lace front cheveux lisses, coloris noir profond, finition miroir. Coupe nette et élégante.",
+    "price_eur": "59.90",
+    "stock": 30,
+    "brand": "",
+    "image": "media/bella_shop/products/Full_frontal_human_hair_wig_10___37000_12__bxx5dv",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T14:20:56.758Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "b8f6d65d-3d40-424a-89a7-2de5e8aabbca",
+  "fields": {
+    "category": "dddb6b9e-11bd-4a7b-9bae-1429a82e3042",
+    "name": "Duo gel apaisant Aloe Vera (Holika Holika 99% + BIOAQUA 92%)",
+    "description": "Duo gel hydratant et apaisant à l'aloe vera, texture fraîche non collante, calme les irritations et hydrate intensément visage et corps.",
+    "price_eur": "8.36",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/1048775831981404542_lkl73d",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:03:28.992Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "b96309a4-4808-482f-9cc0-484c099d7cd7",
+  "fields": {
+    "category": "f24d2c2b-4bd0-4b0e-8e24-4065637699b3",
+    "name": "Perruque Lisse Extra-Longue Lissée",
+    "description": "Perruque lace front extra-longue cheveux lisses, finition brillante miroir. Coiffage impeccable façon salon professionnel",
+    "price_eur": "99.90",
+    "stock": 25,
+    "brand": "",
+    "image": "media/bella_shop/products/Its_fireeee_Guess_the_length___mpof8j",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T14:12:58.152Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "bc2047fb-ecdc-4c40-9617-48735c0158ab",
+  "fields": {
+    "category": "8fe0e2ec-30fa-4583-a62d-72eeba47bf30",
+    "name": "Lait Corps Effet Soleil Mixa",
+    "description": "",
+    "price_eur": "7.90",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/TikTok___cette_crème_Mixa_à_moins_de_6_qui_offre_zxzgfy",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T19:28:37.445Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "bc6f43a0-cd7f-4654-893d-0c1a5315b41d",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Lot de 12 Gloss à Lèvres Longue Tenue",
+    "description": "Lot de 12 gloss brillants longue tenue, formule non collante. Parfait pour varier les looks au quotidien.",
+    "price_eur": "19.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/951878071213449069_kwv8pq",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-27T22:33:08.648Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "bce81d9f-2b8e-4b50-8314-19b3f36b4a60",
+  "fields": {
+    "category": null,
+    "name": "Perruque Longue Ondulée Chocolat",
+    "description": "Perruque lace front HD, cheveux 100% naturels, ondulations body wave et teinte chocolat brun. Coupe dégradée pour un volume glamour.",
+    "price_eur": "109.90",
+    "stock": 15,
+    "brand": "",
+    "image": "media/bella_shop/products/Chocolate_Brown_Layered_Wig__nnqzxv",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T12:35:42.403Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "bcf388b1-4727-482a-955b-9f38685e1b98",
+  "fields": {
+    "category": null,
+    "name": "Perruque Longue Ondulée Châtain Miel",
+    "description": "Perruque lace front longue, ondulations body wave, dégradé châtain vers miel doré. Volume glamour pour occasions spéciales.",
+    "price_eur": "104.90",
+    "stock": 23,
+    "brand": "",
+    "image": "media/bella_shop/products/296533956738412899_ftvlkb",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T13:40:12.098Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "c1e9d0e4-6c4c-4d12-9620-f7e0099ed646",
+  "fields": {
+    "category": null,
+    "name": "Perruque Carré Lisse Noir",
+    "description": "Perruque carré (bob) lace front cheveux lisses, coloris noir profond. Coupe nette et intemporelle.",
+    "price_eur": "59.90",
+    "stock": 19,
+    "brand": "",
+    "image": "media/bella_shop/products/63261569761473263_itdjdu",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T13:34:45.512Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "c2e7309c-a9be-4b25-96d3-683a716dd4a8",
+  "fields": {
+    "category": null,
+    "name": "Perruque Afro Courte Volume XL",
+    "description": "Perruque afro courte à boucles serrées, volume extra généreux avec frange intégrée. Look audacieux et naturel.",
+    "price_eur": "57.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/Amazon_com___HIHOO_Short_Afro_Wig_with_Bangs_for_kgejhv",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T14:07:10.083Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "c9ca535f-4ac0-41a9-b24d-e274ca5bc9b6",
+  "fields": {
+    "category": null,
+    "name": "Perruque Afro Naturelle Volumineuse",
+    "description": "Perruque afro texturée grand volume, aspect cheveux naturels crépus. Style authentique et affirmé",
+    "price_eur": "54.90",
+    "stock": 23,
+    "brand": "",
+    "image": "media/bella_shop/products/How_to_style_your_natural_hair_zlwehn",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T13:38:27.251Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "c9d4d6dc-c8c9-4313-ad27-8ead946cf668",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Faux cils \"Natural Lashes\" (lot de 5 paires)",
+    "description": "Faux cils effet naturel volumineux, bande fine et souple, réutilisables, look regard ouvert au quotidien.",
+    "price_eur": "5.45",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/1139692249615428380_v4uvzu",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:08:53.272Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "cadb2010-470e-45de-b3b9-c5fa69b60992",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Eyeliner feutre Dior Vinyl Black",
+    "description": "Eyeliner liquide longue tenue, pointe fine et précise pour un tracé net type \"vinyle\" ultra pigmenté. Formule waterproof qui ne bave pas.",
+    "price_eur": "32.35",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/Trending_Beauty_Products__Hot_Deals_for_Makeup_Lovers_in_2026_juelzy",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T20:01:06.538Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "cecd1347-6a55-4008-87ba-2800e5b1a161",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Gloss Hydratant Sheglam",
+    "description": "Gloss à lèvres hydratant effet brillant, applicateur doux. Formule non collante pour des lèvres repulpées.",
+    "price_eur": "9.90",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/1095430309386642456_p6dqrr",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-27T22:57:14.638Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "d231a48c-3ded-4160-841d-8ae6547493ee",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Peigne chauffant lissant \"Styling Comb\"",
+    "description": "Peigne chauffant électrique pour lisser et coiffer, double usage (démêlage + lissage à chaud), idéal pour perruques et cheveux naturels.",
+    "price_eur": "19.15",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/Peine_caliente_para_pelucas___799_vi407n",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:49:04.428Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "d32e6f00-bbff-4fa8-bedc-4c4e056af5f3",
+  "fields": {
+    "category": null,
+    "name": "Perruque Tresses Colorées Miel",
+    "description": "Perruque lace front en tresses fines (knotless), dégradé châtain miel. Style protecteur tendance, sans nécessiter de tressage.",
+    "price_eur": "119.90",
+    "stock": 0,
+    "brand": "",
+    "image": "media/bella_shop/products/394346511131420949_koispq",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T12:57:12.549Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "d4bd2613-b028-4275-8d29-c0eed02419b8",
+  "fields": {
+    "category": "8fe0e2ec-30fa-4583-a62d-72eeba47bf30",
+    "name": "Crème hydratante fraîcheur",
+    "description": "Crème hydratante visage, corps et mains à absorption rapide, formule fraîche et non grasse enrichie en vitamine E et huile de jojoba.",
+    "price_eur": "5.09",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/nivea_cream_kj6zoo",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T22:00:07.873Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "d772c2dc-7d13-471f-8eb4-d499004e2e2a",
+  "fields": {
+    "category": "dddb6b9e-11bd-4a7b-9bae-1429a82e3042",
+    "name": "Ekel Bulgarian Rose Hydrogel Eyepatch",
+    "description": "Patchs contour des yeux en hydrogel à la rose de Bulgarie, hydratent et illuminent le regard, réduisent l'aspect des cernes et poches. Boîte de 60 patchs (30 paires).",
+    "price_eur": "7.92",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/17099673580315360_kkvacz",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T20:36:50.295Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "d7e50239-6612-47f9-a403-4545a7ab9939",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Faux cils volume mink 3D (lot professionnel x30 paires)",
+    "description": "Faux cils effet volume 3D façon vison, bande fine glitter, packaging individuel. Lot en gros idéal revente ou stock.",
+    "price_eur": "2.19",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/Paires_de_faux_cils_vikfpb",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:47:49.924Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "db83c4ee-e9fb-4766-832e-f2c2010202d9",
+  "fields": {
+    "category": null,
+    "name": "Perruque Courte Coiffée Rousse Cuivrée",
+    "description": "Perruque courte coupe garçonne, teinte rousse cuivrée intense. Finition lissée avec mèche latérale, parfaite pour un style élégant et affirmé.",
+    "price_eur": "44.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/1134766437345434269_qcvgt4",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T12:14:06.258Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "e2163e19-89e9-4783-9fe4-5ff4e5fb2b41",
+  "fields": {
+    "category": "dddb6b9e-11bd-4a7b-9bae-1429a82e3042",
+    "name": "BYS Charcoal Peel-Off Mask",
+    "description": "Masque peel-off au charbon actif et collagène, nettoie en profondeur, élimine points noirs, impuretés et excès de sébum.",
+    "price_eur": "8.85",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/1148629079978803703_wfulg2",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:10:33.839Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "e630bf65-4c10-4aaa-a7c2-3ee41031c9ad",
+  "fields": {
+    "category": "c6831a7a-1ed6-4213-a237-f929e35f8b45",
+    "name": "Trio Vaseline Healthy Bright Daily Brightening (lotion, gel douche, crème)",
+    "description": "Routine éclaircissante et unifiante complète : lotion corporelle 600 ml, gel douche et crème 48h à la gelée Vaseline et vitamine B3.",
+    "price_eur": "21.35",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/1101693127622736496_lnjtlm",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:06:27.076Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "e9f1374c-8c47-494b-ba69-b0fcede816fb",
+  "fields": {
+    "category": null,
+    "name": "Perruque Carré Blond Cendré Balayage",
+    "description": "Perruque carré (bob) lace front, balayage blond cendré sur base brune. Look sophistiqué et contemporain.",
+    "price_eur": "79.90",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/Ombre_Ash_Blonde_Lace_Front_nug8eq",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T13:36:14.637Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "ea8f929a-56fb-4585-99e8-61e332ee9d64",
+  "fields": {
+    "category": null,
+    "name": "Perruque Courte Coiffée Wave Noire",
+    "description": "Perruque courte pixie coiffée en waves, coloris noir profond. Finition brillante style salon.",
+    "price_eur": "49.90",
+    "stock": 25,
+    "brand": "",
+    "image": "media/bella_shop/products/Transformez_votre_apparence_grâce_à_nos_perruques_fqfqzh",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T13:50:07.378Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "ed372483-f8a7-4960-8952-9ff5e851325b",
+  "fields": {
+    "category": "dddb6b9e-11bd-4a7b-9bae-1429a82e3042",
+    "name": "Sérum Contour des Yeux Collagène Vegan",
+    "description": "Sérum contour des yeux au collagène vegan, acide hyaluronique triple et complexe 5-peptides. Formule fraîcheur avec applicateur roll-on métal.",
+    "price_eur": "18.90",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/Check_out_this_photo_from_Zee_Finds_on9lzb",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T14:01:52.678Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "efbee537-46be-4e89-9e38-94f8c75cc082",
+  "fields": {
+    "category": "8fe0e2ec-30fa-4583-a62d-72eeba47bf30",
+    "name": "Duo Mixa Stretch Mark Oil & Niacinamide Bright",
+    "description": "Duo soin corps réparateur : huile anti-vergetures aux oméga 3&6 (30%) et crème hydratante anti-taches à la niacinamide 9%, vitamine C et beurre de karité.",
+    "price_eur": "15.45",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/Mixa_Niacinamide_Bright_Creme_itnqpc",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T21:44:12.897Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "f1a225d9-a4ea-4ed5-a578-4f5e37b21000",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Recourbe-cils Dior",
+    "description": "Recourbe-cils professionnel à embouts silicone, courbure adaptée à toutes les formes d'yeux pour un résultat recourbé longue tenue avant application du mascara.",
+    "price_eur": "24.14",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/i1q0fytziyybnkagprlx",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T20:12:58.770Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "f1f894c6-1848-43ff-88bb-631603e62859",
+  "fields": {
+    "category": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+    "name": "Lampe UV/LED Candy Coat 48W",
+    "description": "Lampe de séchage professionnelle pour vernis semi-permanent et gel, écran digital, plusieurs modes de minuterie.",
+    "price_eur": "24.34",
+    "stock": 20,
+    "brand": "",
+    "image": "media/bella_shop/products/Amazon_com___Mini_Pink_Salon_Cushion_Board_Nail_x8jmej",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T20:46:51.296Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "f66d8e53-64b4-481a-9343-60eebf8f5065",
+  "fields": {
+    "category": "c446dc6f-f18d-482f-86b6-444ae12a2d9c",
+    "name": "Gamme Complète Cantu Shea Butter Natural Hair",
+    "description": "Coffret complet Cantu : shampoing sans sulfate, après-shampoing hydratant, crème sans-rinçage, crème bouclante, spray brillance et traitement fortifiant. Routine complète cheveux naturels.",
+    "price_eur": "44.90",
+    "stock": 10,
+    "brand": "",
+    "image": "media/bella_shop/products/5_Marques_Capillaires_Pour_Cheveux_Crépus__-_Natural_Saramaya_uqjw5v",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-28T19:03:10.763Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": "fee80fa9-0af3-4df0-a044-d077520f0f78",
+  "fields": {
+    "category": null,
+    "name": "Perruque Bouclée Châtain Caramel",
+    "description": "Perruque lace front bouclée mi-longue, dégradé châtain vers caramel. Frange rideau, look naturel volumineux",
+    "price_eur": "84.90",
+    "stock": 0,
+    "brand": "",
+    "image": "media/bella_shop/products/Voluminous_Kinky_Curly_Lace_Front_Wig_ej1djp",
+    "images": [],
+    "is_active": true,
+    "created_at": "2026-07-25T13:51:27.459Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": "8fe0e2ec-30fa-4583-a62d-72eeba47bf30",
+  "fields": {
+    "parent": null,
+    "name_fr": "Soins Corps",
+    "name_en": "Body Care",
+    "slug": "soins-corps",
+    "created_at": "2026-07-02T17:54:00.961Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": "c446dc6f-f18d-482f-86b6-444ae12a2d9c",
+  "fields": {
+    "parent": null,
+    "name_fr": "Soins-capillaires",
+    "name_en": "Hair Care",
+    "slug": "soins-capillaires",
+    "created_at": "2026-07-09T19:18:00.965Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": "c6831a7a-1ed6-4213-a237-f929e35f8b45",
+  "fields": {
+    "parent": null,
+    "name_fr": "Bain & Douche",
+    "name_en": "Bath & Shower",
+    "slug": "bain-shower",
+    "created_at": "2026-07-09T19:20:51.455Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": "dddb6b9e-11bd-4a7b-9bae-1429a82e3042",
+  "fields": {
+    "parent": null,
+    "name_fr": "Soins Visage",
+    "name_en": "Face Care",
+    "slug": "soins-visage",
+    "created_at": "2026-07-09T19:22:52.669Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": "f24d2c2b-4bd0-4b0e-8e24-4065637699b3",
+  "fields": {
+    "parent": null,
+    "name_fr": "Perruques",
+    "name_en": "Wigs",
+    "slug": "Cheveux",
+    "created_at": "2026-07-25T14:11:39.163Z"
+  }
+},
+{
+  "model": "products.category",
+  "pk": "f29a8b8c-aca8-4da0-9f35-83717e13130a",
+  "fields": {
+    "parent": null,
+    "name_fr": "Maquillage",
+    "name_en": "Makeup",
+    "slug": "maquillage",
+    "created_at": "2026-07-02T17:55:39.846Z"
+  }
+}
+]
