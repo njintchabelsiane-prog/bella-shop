@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import { useCart } from '../context/CartContext.jsx'
 
-const PRODUCTS_URL   = 'http://127.0.0.1:8000/api/products/'
-const CATEGORIES_URL = 'http://127.0.0.1:8000/api/products/categories/'
+const PRODUCTS_URL   = 'https://bellashop-api.onrender.com/api/products/'
+const CATEGORIES_URL = 'https://bellashop-api.onrender.com/api/products/categories/'
 const PRIX_MAX_DEFAUT = 200
 
 export default function Catalogue() {
