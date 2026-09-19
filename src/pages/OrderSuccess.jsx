@@ -5,6 +5,16 @@ import { useCart } from '../context/CartContext.jsx'
 
 const CONFIRM_URL = 'https://bellashop-api.onrender.com/api/orders/confirm/'
 
+const linkStyle = {
+  background: '#111',
+  color: '#F8BBD9',
+  padding: '12px 24px',
+  borderRadius: '4px',
+  fontSize: '13px',
+  fontWeight: 'bold',
+  textDecoration: 'none'
+}
+
 export default function OrderSuccess() {
   const [searchParams] = useSearchParams()
   const sessionId = searchParams.get('session_id')
@@ -32,13 +42,45 @@ export default function OrderSuccess() {
   }, [sessionId])
 
   if (loading) {
-    return <p style={{ textAlign: 'center', padding: '80px 24px', fontSize: '13px', color: '#888' }}>Vérification du paiement…</p>
+    return (
+      <p style={{ textAlign: 'center', padding: '80px 24px', fontSize: '13px', color: '#888' }}>
+        Vérification du paiement…
+      </p>
+    )
   }
 
   if (error) {
     return (
       <div style={{ textAlign: 'center', padding: '80px 24px' }}>
         <div style={{ fontSize: '48px', marginBottom: '16px' }}>⚠️</div>
-        <h2 style={{ fontSize: '18px', fontWeight: 'bold', marginBottom: '8px' }}>Un souci est survenu</h2>
-        <p style={{ fontSize: '13px', color: '#888', marginBottom: '24px' }}>{error}</p>
-        <Link to="/catalogue" style={{ background: '#111', color: '#F8BBD9', padding: '12px 24px', borderRadius: '4px',
+        <h2 style={{ fontSize: '18px', fontWeight: 'bold', marginBottom: '8px' }}>
+          Un souci est survenu
+        </h2>
+        <p style={{ fontSize: '13px', color: '#888', marginBottom: '24px' }}>
+          {error}
+        </p>
+        <Link to="/catalogue" style={linkStyle}>
+          Retour au catalogue
+        </Link>
+      </div>
+    )
+  }
+
+  return (
+    <div style={{ textAlign: 'center', padding: '80px 24px' }}>
+      <div style={{ fontSize: '48px', marginBottom: '16px' }}>✅</div>
+      <h2 style={{ fontSize: '20px', fontWeight: 'bold', marginBottom: '8px' }}>
+        Merci pour votre commande !
+      </h2>
+      <p style={{ fontSize: '13px', color: '#888', marginBottom: '4px' }}>
+        Commande n° <strong>{order.order_number}</strong>
+      </p>
+      <p style={{ fontSize: '13px', color: '#888', marginBottom: '24px' }}>
+        Total payé : {Number(order.total_amount).toFixed(2).replace('.', ',')}€
+      </p>
+      <Link to="/catalogue" style={linkStyle}>
+        Continuer mes achats
+      </Link>
+    </div>
+  )
+}
