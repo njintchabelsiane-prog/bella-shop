@@ -1,13 +1,37 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
+import { saveAuth } from '../api/auth.js'
+
+const API_URL = 'https://bellashop-api.onrender.com/api/auth/login/'
 
 export default function Login() {
   const [email, setEmail]       = useState('')
   const [password, setPassword] = useState('')
+  const [error, setError]       = useState('')
+  const [loading, setLoading]   = useState(false)
+  const navigate = useNavigate()
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
-    console.log('Login:', email, password)
+    setError('')
+    setLoading(true)
+    try {
+      const res = await fetch(API_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password }),
+      })
+      const data = await res.json()
+      if (!res.ok) {
+        throw new Error(data.error || 'Email ou mot de passe incorrect')
+      }
+      saveAuth(data)
+      navigate('/')
+    } catch (err) {
+      setError(err.message)
+    } finally {
+      setLoading(false)
+    }
   }
 
   return (
@@ -16,6 +40,12 @@ export default function Login() {
         <h2 style={{ fontSize: '22px', fontWeight: 'bold', color: '#111', marginBottom: '6px', textAlign: 'center' }}>Connexion</h2>
         <p style={{ fontSize: '12px', color: '#888', textAlign: 'center', marginBottom: '24px' }}>Bienvenue sur Bella Shop</p>
 
+        {error && (
+          <div style={{ background: '#fdecea', color: '#c62828', fontSize: '12px', padding: '10px', borderRadius: '4px', marginBottom: '16px' }}>
+            {error}
+          </div>
+        )}
+
         <div style={{ marginBottom: '16px' }}>
           <label style={{ display: 'block', fontSize: '12px', color: '#666', marginBottom: '6px' }}>Email</label>
           <input
@@ -23,7 +53,7 @@ export default function Login() {
             value={email}
             onChange={e => setEmail(e.target.value)}
             placeholder="votre@email.com"
-            style={{ width: '100%', border: '1px solid #ddd', padding: '10px 12px', fontSize: '13px', borderRadius: '4px', outline: 'none' }}
+            style={{ width: '100%', border: '1px solid #ddd', padding: '10px 12px', fontSize: '13px', borderRadius: '4px', outline: 'none', boxSizing: 'border-box' }}
           />
         </div>
 
@@ -34,15 +64,16 @@ export default function Login() {
             value={password}
             onChange={e => setPassword(e.target.value)}
             placeholder="••••••••"
-            style={{ width: '100%', border: '1px solid #ddd', padding: '10px 12px', fontSize: '13px', borderRadius: '4px', outline: 'none' }}
+            style={{ width: '100%', border: '1px solid #ddd', padding: '10px 12px', fontSize: '13px', borderRadius: '4px', outline: 'none', boxSizing: 'border-box' }}
           />
         </div>
 
         <button
           onClick={handleSubmit}
-          style={{ width: '100%', background: '#111', color: '#F8BBD9', border: 'none', padding: '13px', fontWeight: 'bold', borderRadius: '4px', cursor: 'pointer', fontSize: '14px', marginBottom: '16px' }}
+          disabled={loading}
+          style={{ width: '100%', background: '#111', color: '#F8BBD9', border: 'none', padding: '13px', fontWeight: 'bold', borderRadius: '4px', cursor: loading ? 'default' : 'pointer', fontSize: '14px', marginBottom: '16px', opacity: loading ? 0.7 : 1 }}
         >
-          Se connecter
+          {loading ? 'Connexion…' : 'Se connecter'}
         </button>
 
         <p style={{ textAlign: 'center', fontSize: '12px', color: '#666' }}>

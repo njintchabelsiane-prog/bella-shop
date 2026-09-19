@@ -2,8 +2,8 @@ import { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { saveAuth } from '../api/auth.js'
 
-const REGISTER_URL = 'http://127.0.0.1:8000/api/auth/register/'
-const LOGIN_URL     = 'http://127.0.0.1:8000/api/auth/login/'
+const REGISTER_URL = 'https://bellashop-api.onrender.com/api/auth/register/'
+const LOGIN_URL     = 'https://bellashop-api.onrender.com/api/auth/login/'
 
 export default function Register() {
   const [form, setForm] = useState({
@@ -30,7 +30,6 @@ export default function Register() {
 
     setLoading(true)
     try {
-      // 1. Création du compte
       const { confirm, ...payload } = form
       const res = await fetch(REGISTER_URL, {
         method: 'POST',
@@ -43,7 +42,6 @@ export default function Register() {
         throw new Error(Array.isArray(firstError) ? firstError[0] : (firstError || 'Erreur lors de la création du compte'))
       }
 
-      // 2. Connexion automatique juste après l'inscription
       const loginRes = await fetch(LOGIN_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
