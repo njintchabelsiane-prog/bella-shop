@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { useCart } from '../context/CartContext.jsx'
 import { authFetch, isAuthenticated } from '../api/auth.js'
 
-const CHECKOUT_URL = 'http://127.0.0.1:8000/api/orders/checkout/'
+const CHECKOUT_URL = 'https://bellashop-api.onrender.com/api/orders/checkout/'
 
 export default function Cart() {
   const { items, updateQuantity, removeFromCart, totalItems, totalPrice } = useCart()
