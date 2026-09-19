@@ -2,8 +2,8 @@ import { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { saveAuth } from '../api/auth.js'
 
-const REGISTER_URL = 'http://127.0.0.1:8000/api/auth/register/'
-const LOGIN_URL     = 'http://127.0.0.1:8000/api/auth/login/'
+const REGISTER_URL = 'https://bellashop-api.onrender.com/api/auth/register/'
+const LOGIN_URL     = 'https://bellashop-api.onrender.com/api/auth/login/'
 
 export default function Register() {
   const [form, setForm] = useState({

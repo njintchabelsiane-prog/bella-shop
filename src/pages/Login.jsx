@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { saveAuth } from '../api/auth.js'
 
-const API_URL = 'http://127.0.0.1:8000/api/auth/login/'
+const API_URL = 'https://bellashop-api.onrender.com/api/auth/login/'
 
 export default function Login() {
   const [email, setEmail]       = useState('')
