@@ -1,6 +1,15 @@
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import { isAuthenticated, logout } from '../api/auth.js'
 
 export default function Navbar() {
+  const navigate = useNavigate()
+  const connected = isAuthenticated()
+
+  const handleLogout = () => {
+    logout()
+    navigate('/')
+  }
+
   return (
     <nav style={{
       background: '#111111',
@@ -55,18 +64,44 @@ export default function Navbar() {
         <Link to="/panier" style={{ color: '#fff', textDecoration: 'none', fontSize: '13px', fontWeight: '500' }}>
           🛒 Panier
         </Link>
-        <Link to="/login" style={{
-          color: '#111',
-          background: '#F8BBD9',
-          textDecoration: 'none',
-          fontSize: '12px',
-          fontWeight: '700',
-          padding: '8px 20px',
-          borderRadius: '20px',
-          letterSpacing: '0.5px',
-        }}>
-          Connexion
-        </Link>
+
+        {connected && (
+          <Link to="/mes-commandes" style={{ color: '#fff', textDecoration: 'none', fontSize: '13px', fontWeight: '500' }}>
+            📦 Mes commandes
+          </Link>
+        )}
+
+        {connected ? (
+          <button
+            onClick={handleLogout}
+            style={{
+              color: '#111',
+              background: '#F8BBD9',
+              border: 'none',
+              cursor: 'pointer',
+              fontSize: '12px',
+              fontWeight: '700',
+              padding: '8px 20px',
+              borderRadius: '20px',
+              letterSpacing: '0.5px',
+            }}
+          >
+            Déconnexion
+          </button>
+        ) : (
+          <Link to="/login" style={{
+            color: '#111',
+            background: '#F8BBD9',
+            textDecoration: 'none',
+            fontSize: '12px',
+            fontWeight: '700',
+            padding: '8px 20px',
+            borderRadius: '20px',
+            letterSpacing: '0.5px',
+          }}>
+            Connexion
+          </Link>
+        )}
       </div>
     </nav>
   )
