@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom'
+import { useCart } from '../context/CartContext.jsx'
 
 export default function Navbar() {
+  const { totalItems } = useCart()
+
   return (
     <nav style={{
       background: '#111111',
@@ -52,8 +55,29 @@ export default function Navbar() {
         <Link to="/catalogue" style={{ color: '#fff', textDecoration: 'none', fontSize: '13px', fontWeight: '500', letterSpacing: '0.5px' }}>
           Catalogue
         </Link>
-        <Link to="/panier" style={{ color: '#fff', textDecoration: 'none', fontSize: '13px', fontWeight: '500' }}>
+        <Link to="/panier" style={{ color: '#fff', textDecoration: 'none', fontSize: '13px', fontWeight: '500', position: 'relative', paddingRight: totalItems > 0 ? '14px' : '0' }}>
           🛒 Panier
+          {totalItems > 0 && (
+            <span style={{
+              position: 'absolute',
+              top: '-8px',
+              right: '-4px',
+              background: '#F8BBD9',
+              color: '#111',
+              fontSize: '10px',
+              fontWeight: '700',
+              minWidth: '18px',
+              height: '18px',
+              borderRadius: '9px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              padding: '0 4px',
+              boxSizing: 'border-box',
+            }}>
+              {totalItems > 99 ? '99+' : totalItems}
+            </span>
+          )}
         </Link>
         <Link to="/login" style={{
           color: '#111',
