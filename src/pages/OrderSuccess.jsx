@@ -3,7 +3,7 @@ import { useSearchParams, Link } from 'react-router-dom'
 import { authFetch } from '../api/auth.js'
 import { useCart } from '../context/CartContext.jsx'
 
-const CONFIRM_URL = 'http://127.0.0.1:8000/api/orders/confirm/'
+const CONFIRM_URL = 'https://bellashop-api.onrender.com/api/orders/confirm/'
 
 export default function OrderSuccess() {
   const [searchParams] = useSearchParams()
@@ -41,26 +41,4 @@ export default function OrderSuccess() {
         <div style={{ fontSize: '48px', marginBottom: '16px' }}>⚠️</div>
         <h2 style={{ fontSize: '18px', fontWeight: 'bold', marginBottom: '8px' }}>Un souci est survenu</h2>
         <p style={{ fontSize: '13px', color: '#888', marginBottom: '24px' }}>{error}</p>
-        <Link to="/catalogue" style={{ background: '#111', color: '#F8BBD9', padding: '12px 24px', borderRadius: '4px', fontSize: '13px', fontWeight: 'bold', textDecoration: 'none' }}>
-          Retour au catalogue
-        </Link>
-      </div>
-    )
-  }
-
-  return (
-    <div style={{ textAlign: 'center', padding: '80px 24px' }}>
-      <div style={{ fontSize: '48px', marginBottom: '16px' }}>✅</div>
-      <h2 style={{ fontSize: '20px', fontWeight: 'bold', marginBottom: '8px' }}>Merci pour votre commande !</h2>
-      <p style={{ fontSize: '13px', color: '#888', marginBottom: '4px' }}>
-        Commande n° <strong>{order.order_number}</strong>
-      </p>
-      <p style={{ fontSize: '13px', color: '#888', marginBottom: '24px' }}>
-        Total payé : {Number(order.total_amount).toFixed(2).replace('.', ',')}€
-      </p>
-      <Link to="/catalogue" style={{ background: '#111', color: '#F8BBD9', padding: '12px 24px', borderRadius: '4px', fontSize: '13px', fontWeight: 'bold', textDecoration: 'none' }}>
-        Continuer mes achats
-      </Link>
-    </div>
-  )
-}
+        <Link to="/catalogue" style={{ background: '#111', color: '#F8BBD9', padding: '12px 24px', borderRadius: '4px',
