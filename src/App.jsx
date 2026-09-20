@@ -7,19 +7,21 @@ import Cart from './pages/Cart'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import OrderSuccess from './pages/OrderSuccess'
+import MyOrders from './pages/MyOrders'
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/"              element={<Home />} />
-        <Route path="/catalogue"     element={<Catalogue />} />
-        <Route path="/produit/:id"   element={<ProductDetail />} />
-        <Route path="/panier"        element={<Cart />} />
-        <Route path="/login"         element={<Login />} />
-        <Route path="/register"      element={<Register />} />
+        <Route path="/"                element={<Home />} />
+        <Route path="/catalogue"       element={<Catalogue />} />
+        <Route path="/produit/:id"     element={<ProductDetail />} />
+        <Route path="/panier"          element={<Cart />} />
+        <Route path="/login"           element={<Login />} />
+        <Route path="/register"        element={<Register />} />
         <Route path="/commande/succes" element={<OrderSuccess />} />
+        <Route path="/mes-commandes"   element={<MyOrders />} />
       </Routes>
     </BrowserRouter>
   )

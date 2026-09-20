@@ -1,8 +1,14 @@
-import { Link } from 'react-router-dom'
-import { useCart } from '../context/CartContext.jsx'
+import { Link, useNavigate } from 'react-router-dom'
+import { isAuthenticated, logout } from '../api/auth.js'
 
 export default function Navbar() {
-  const { totalItems } = useCart()
+  const navigate = useNavigate()
+  const connected = isAuthenticated()
+
+  const handleLogout = () => {
+    logout()
+    navigate('/')
+  }
 
   return (
     <nav style={{
@@ -55,42 +61,47 @@ export default function Navbar() {
         <Link to="/catalogue" style={{ color: '#fff', textDecoration: 'none', fontSize: '13px', fontWeight: '500', letterSpacing: '0.5px' }}>
           Catalogue
         </Link>
-        <Link to="/panier" style={{ color: '#fff', textDecoration: 'none', fontSize: '13px', fontWeight: '500', position: 'relative', paddingRight: totalItems > 0 ? '14px' : '0' }}>
+        <Link to="/panier" style={{ color: '#fff', textDecoration: 'none', fontSize: '13px', fontWeight: '500' }}>
           🛒 Panier
-          {totalItems > 0 && (
-            <span style={{
-              position: 'absolute',
-              top: '-8px',
-              right: '-4px',
-              background: '#F8BBD9',
+        </Link>
+
+        {connected && (
+          <Link to="/mes-commandes" style={{ color: '#fff', textDecoration: 'none', fontSize: '13px', fontWeight: '500' }}>
+            📦 Mes commandes
+          </Link>
+        )}
+
+        {connected ? (
+          <button
+            onClick={handleLogout}
+            style={{
               color: '#111',
-              fontSize: '10px',
+              background: '#F8BBD9',
+              border: 'none',
+              cursor: 'pointer',
+              fontSize: '12px',
               fontWeight: '700',
-              minWidth: '18px',
-              height: '18px',
-              borderRadius: '9px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              padding: '0 4px',
-              boxSizing: 'border-box',
-            }}>
-              {totalItems > 99 ? '99+' : totalItems}
-            </span>
-          )}
-        </Link>
-        <Link to="/login" style={{
-          color: '#111',
-          background: '#F8BBD9',
-          textDecoration: 'none',
-          fontSize: '12px',
-          fontWeight: '700',
-          padding: '8px 20px',
-          borderRadius: '20px',
-          letterSpacing: '0.5px',
-        }}>
-          Connexion
-        </Link>
+              padding: '8px 20px',
+              borderRadius: '20px',
+              letterSpacing: '0.5px',
+            }}
+          >
+            Déconnexion
+          </button>
+        ) : (
+          <Link to="/login" style={{
+            color: '#111',
+            background: '#F8BBD9',
+            textDecoration: 'none',
+            fontSize: '12px',
+            fontWeight: '700',
+            padding: '8px 20px',
+            borderRadius: '20px',
+            letterSpacing: '0.5px',
+          }}>
+            Connexion
+          </Link>
+        )}
       </div>
     </nav>
   )
