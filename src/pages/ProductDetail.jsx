@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { useCart } from '../context/CartContext.jsx'
 
-const PRODUCT_URL = 'http://127.0.0.1:8000/api/products/'
+const PRODUCT_URL = 'https://bellashop-api.onrender.com/api/products/'
 
 export default function ProductDetail() {
   const { id } = useParams()
